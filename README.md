@@ -15,7 +15,7 @@ BYOL is a self-supervised learning algorithm that does not explicitly use negati
 
 <h3 align="center">BYOL</h3>
 <p align="center">
-  <img src="images/BYOL.jpg" width="600">
+  <img src="images/Byol.jpg" width="600">
 </p>
 
 ## Results
