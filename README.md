@@ -13,9 +13,9 @@ To run the scripts in this repository, you will need to have the following depen
 BYOL is a self-supervised learning algorithm that does not explicitly use negative samples. Instead, it directly minimizes the similarity of representations of the same image under a different augmented view (positive pair). This makes BYOL more efficient to train than contrastive learning methods, which require a larger batch size to learn from negative samples. BYOL has been shown to achieve state-of-the-art results on a variety of image classification tasks.
 
 
-<h3 align="center">Fashion MNIST</h3>
+<h3 align="center">BYOL</h3>
 <p align="center">
-  <img src="images/BYOL.png" width="600">
+  <img src="images/BYOL.jpg" width="600">
 </p>
 
 ## Results
