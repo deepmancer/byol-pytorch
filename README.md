@@ -19,7 +19,7 @@ BYOL represents a breakthrough in self-supervised learning. Unlike traditional m
 
 <h3 align="center">BYOL Model</h3>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/deepmancer/byol-pytorch/main/Byol.jpg" width="600" alt="BYOL Model Overview">
+  <img src="https://raw.githubusercontent.com/deepmancer/byol-pytorch/main/images/Byol.jpg" width="600" alt="BYOL Model Overview">
 </p>
 
 ## 📁 Dataset
