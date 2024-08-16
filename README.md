@@ -7,7 +7,9 @@
 </p>
 <p align="center">
   
-Welcome to the **BYOL (Bootstrap Your Own Latent)** repository! Dive into our comprehensive, from-scratch implementation of BYOL—a cutting-edge self-supervised learning algorithm that's transforming how we approach unsupervised feature learning.
+Welcome to the **BYOL (Bootstrap Your Own Latent)** repository! Dive into our comprehensive, from-scratch implementation of BYOL—a self-supervised contrastive learning algorithm that's transforming how we approach unsupervised feature learning.
+
+---
 
 ## 🔧 Requirements
 
