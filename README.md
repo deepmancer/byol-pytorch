@@ -1,5 +1,12 @@
 # 📈 BYOL (Bootstrap Your Own Latent) – From Scratch Implementation in Pytorch
 
+<p align="center">
+  <img src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white" alt="PyTorch">
+  <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python">
+  <img src="https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white" alt="Jupyter Notebook">
+</p>
+<p align="center">
+  
 Welcome to the **BYOL (Bootstrap Your Own Latent)** repository! Dive into our comprehensive, from-scratch implementation of BYOL—a cutting-edge self-supervised learning algorithm that's transforming how we approach unsupervised feature learning.
 
 ## 🔧 Requirements
