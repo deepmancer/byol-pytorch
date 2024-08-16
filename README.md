@@ -33,7 +33,7 @@ We use the STL10 dataset to evaluate our BYOL implementation. This dataset is ta
 
 <h3 align="center">STL10 Dataset Example</h3>
 <p align="center">
-  <img src="[Overview]([https://cs.stanford.edu/~acoates/stl10/stl10-example.png](https://cs.stanford.edu/~acoates/stl10/images.png))" width="600" alt="STL10 Dataset Sample">
+  <img src="https://cs.stanford.edu/~acoates/stl10/images.png" width="600" alt="STL10 Dataset Sample">
 </p>
 
 ## 📊 Results
