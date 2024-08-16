@@ -1,38 +1,48 @@
-# 📈 BYOL (Bootstrap Your Own Latent)
+# 📈 BYOL (Bootstrap Your Own Latent) – From Scratch Implementation in Pytorch
 
-Welcome to the **BYOL (Bootstrap Your Own Latent)** repository! This project features cutting-edge implementations of the BYOL model—a revolutionary approach in self-supervised learning that eschews negative samples for a more streamlined and efficient training process.
+Welcome to the **BYOL (Bootstrap Your Own Latent)** repository! Dive into our comprehensive, from-scratch implementation of BYOL—a cutting-edge self-supervised learning algorithm that's transforming how we approach unsupervised feature learning.
 
 ## 🔧 Requirements
 
-To get started with the scripts and experiments in this repository, ensure you have the following dependencies installed:
+Before running the code, ensure you have the following dependencies:
 
-- **Python 3**: The programming language used for implementation.
-- **PyTorch**: The core deep learning library for model training and evaluation.
+- **Python 3**: The language used for implementation.
+- **PyTorch**: The deep learning framework powering our model training and evaluation.
 
 ## 🧠 Model Overview
 
-BYOL is an innovative self-supervised learning algorithm that eliminates the need for negative samples. Instead of contrasting positive and negative samples, BYOL directly minimizes the similarity between representations of the same image under different augmentations (positive pairs). This approach simplifies training and reduces computational overhead compared to traditional contrastive methods.
+BYOL represents a breakthrough in self-supervised learning. Unlike traditional methods that rely on negative samples for contrastive learning, BYOL focuses solely on positive pairs—images of the same instance with different augmentations. This unique approach simplifies training and minimizes computational requirements, achieving remarkable results.
 
-**Key Highlights:**
-- **No Negative Samples**: BYOL trains by only focusing on positive pairs, making it more efficient.
-- **State-of-the-Art Performance**: Demonstrates exceptional performance on various image classification tasks.
+### Key Features:
+- **No Negative Samples Required**: Efficient training by focusing exclusively on positive pairs.
+- **State-of-the-Art Results**: Achieves impressive performance on various image classification benchmarks.
 
-<h3 align="center">BYOL</h3>
+<h3 align="center">BYOL Model</h3>
 <p align="center">
-  <img src="images/Byol.jpg" width="600" alt="BYOL Model">
+  <img src="https://miro.medium.com/v2/resize:fit:1200/1*Nq5lVf90EYs-mn8wIFypxQ.png" width="600" alt="BYOL Model Overview">
 </p>
 
-## 🚀 Results
+## 📁 Dataset
 
-This repository explores the impact of BYOL pretraining on the STL10 dataset for a classification task. Here’s a snapshot of the performance improvements:
+### STL10 Dataset
 
-- **Baseline Accuracy**: Achieved 84.58% accuracy without pretraining.
-- **Post-BYOL Pretraining**: Accuracy surged to 87.61% after applying BYOL with 10 epochs of pretraining.
+We use the STL10 dataset to evaluate our BYOL implementation. This dataset is tailored for developing and testing unsupervised feature learning and self-supervised learning models.
 
-### Implementation Details
+- **Overview**: Contains 10 classes, each with 500 training images and 800 test images.
+- **Source**: [STL10 Dataset](https://cs.stanford.edu/~acoates/stl10/)
 
-For our experiments, we used a ResNet18 model pretrained on the ImageNet dataset as the encoder for BYOL. The knowledge transferred from ImageNet significantly enhanced the model’s performance during BYOL pretraining, highlighting BYOL's effectiveness in boosting classification accuracy.
+<h3 align="center">STL10 Dataset Example</h3>
+<p align="center">
+  <img src="https://cs.stanford.edu/~acoates/stl10/stl10-example.png" width="600" alt="STL10 Dataset Sample">
+</p>
 
-## 🔍 Summary
+## 📊 Results
 
-The remarkable improvement in classification accuracy underscores BYOL’s potential as a powerful tool in self-supervised learning. This technique not only simplifies training but also achieves superior performance, making it a valuable addition to your machine learning toolkit.
+Our experiments highlight the impact of BYOL pretraining on the STL10 dataset:
+
+- **Without Pretraining**: Baseline accuracy of 84.58%.
+- **With BYOL Pretraining**: Accuracy improved to 87.61% after 10 epochs, demonstrating BYOL’s effectiveness.
+
+### Implementation Insights
+
+This repository features a complete, from-scratch implementation of BYOL. For our experiments, we used a ResNet18 model pretrained on ImageNet as the encoder, showcasing how leveraging pretrained models can further enhance BYOL’s capabilities.
